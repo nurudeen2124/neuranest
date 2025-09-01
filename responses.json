@@ -1,0 +1,16 @@
+{
+  "hello": "Hi, I'm NeuraNest 👋. How can I help you?",
+  "hi": "Hello there! I'm NeuraNest, your friendly chatbot assistant.",
+  "how are you": "I'm doing great, thanks for asking! How are you today?",
+  "what is your name": "I'm NeuraNest, a chatbot designed to help and chat with you!",
+  "who are you": "I'm NeuraNest, your AI chatbot companion. I'm here to help answer questions and have conversations.",
+  "help": "I can chat with you about various topics! Try asking me questions or just say hello.",
+  "what can you do": "I can have conversations, answer questions, and help with various topics. What would you like to talk about?",
+  "thank you": "You're very welcome! I'm happy to help.",
+  "thanks": "No problem at all! Feel free to ask me anything else.",
+  "bye": "Goodbye! 👋 Have a wonderful day!",
+  "goodbye": "See you later! Thanks for chatting with NeuraNest! 👋",
+  "weather": "I don't have access to real-time weather data, but I hope it's nice where you are!",
+  "time": "I don't have access to the current time, but I hope you're having a great day!",
+  "joke": "Why don't scientists trust atoms? Because they make up everything! 😄"
+}

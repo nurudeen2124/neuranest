@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuraNest Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-header">
+            <h1>🧠 NeuraNest</h1>
+            <p>Your friendly AI chatbot companion</p>
+        </div>
+        
+        <div class="chatbox">
+            <div id="chatlog">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <strong>NeuraNest:</strong> Hello! I'm NeuraNest, your chatbot assistant. How can I help you today? 👋
+                    </div>
+                    <div class="timestamp" id="initial-time"></div>
+                </div>
+            </div>
+            
+            <div class="input-container">
+                <input id="userInput" type="text" placeholder="Type your message here..." maxlength="500">
+                <button id="sendButton" onclick="sendMessage()">
+                    <span>Send</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
