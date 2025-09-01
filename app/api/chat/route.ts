@@ -47,7 +47,7 @@ export async function POST(req: Request) {
       temperature: 0.7,
     })
 
-    return result.toDataStreamResponse()
+    return result.toTextStreamResponse()
   } catch (error) {
     console.error("Chat API error:", error)
     const errorMessage = error instanceof Error ? error.message : "Unknown error occurred"
