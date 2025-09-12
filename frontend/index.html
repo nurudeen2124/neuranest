@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuraNest - Premium AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-section">
+                <div class="logo">
+                    <i class="fas fa-brain"></i>
+                    <div class="sparkle">
+                        <i class="fas fa-sparkles"></i>
+                    </div>
+                </div>
+                <div class="title-section">
+                    <h1>NeuraNest</h1>
+                    <div class="subtitle">
+                        <i class="fas fa-bolt"></i>
+                        <span>Premium AI Assistant</span>
+                    </div>
+                </div>
+            </div>
+            <p class="description">Experience intelligent conversations with advanced reasoning capabilities</p>
+        </header>
+
+        <!-- Chat Container -->
+        <div class="chat-container">
+            <div class="chat-header">
+                <div class="chat-title">
+                    <i class="fas fa-robot"></i>
+                    <span>NeuraNest AI Assistant</span>
+                </div>
+                <div class="status">
+                    <div class="status-dot"></div>
+                    <span>AI Online</span>
+                </div>
+            </div>
+
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>Hello! I'm NeuraNest, your premium AI assistant powered by advanced language models. I can help you with complex questions, engage in deep conversations, provide detailed insights, or assist with any task you have in mind. What would you like to explore today?</p>
+                        <span class="message-time" id="initialTime"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="loading-indicator" id="loadingIndicator" style="display: none;">
+                <div class="message bot-message">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <div class="typing-indicator">
+                            <span>NeuraNest is thinking</span>
+                            <div class="dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <input type="text" id="messageInput" placeholder="Ask me anything..." disabled>
+                    <button id="sendButton" disabled>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <p class="footer-text">Powered by OpenAI GPT-4 • Advanced AI reasoning and conversation</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

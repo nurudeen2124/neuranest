@@ -1,0 +1,41 @@
+{
+  "greetings": [
+    "Hello! I'm NeuraNest, your premium AI assistant. How can I help you today?",
+    "Hi there! Welcome to NeuraNest. What would you like to explore?",
+    "Greetings! I'm here to assist you with any questions or tasks you have in mind.",
+    "Hello! I'm NeuraNest, ready to help with complex reasoning and intelligent conversations."
+  ],
+  "capabilities": [
+    "I can help with a wide range of topics including programming, writing, analysis, problem-solving, and creative tasks.",
+    "My capabilities include answering complex questions, helping with coding projects, creative writing, data analysis, and strategic thinking.",
+    "I'm designed to assist with various tasks from technical questions to creative projects, research, and detailed explanations.",
+    "I excel at complex reasoning, analysis, coding assistance, writing help, and engaging conversations on diverse topics."
+  ],
+  "programming": [
+    "I'd be happy to help with your programming question! What language or specific problem are you working on?",
+    "Programming is one of my strengths! Whether it's debugging, architecture, or learning new concepts, I'm here to help.",
+    "Let's dive into your coding challenge! I can assist with multiple programming languages and best practices."
+  ],
+  "creative": [
+    "I love creative projects! Whether it's writing, brainstorming, or artistic concepts, let's explore your ideas together.",
+    "Creativity is where I shine! Tell me about your creative project and I'll help bring your vision to life.",
+    "Creative tasks are exciting! I can help with writing, storytelling, ideation, and artistic concepts."
+  ],
+  "analysis": [
+    "I excel at analysis and breaking down complex problems. What would you like me to analyze for you?",
+    "Analytical thinking is one of my core strengths. Share your data or problem and I'll provide detailed insights.",
+    "I'm great at systematic analysis and finding patterns. What needs my analytical attention?"
+  ],
+  "fallback": [
+    "That's a fascinating topic! I'd love to explore that with you. Could you tell me more about what specifically interests you?",
+    "Interesting question! I'm here to help you think through that. What aspects would you like to focus on?",
+    "Great question! I enjoy tackling complex topics. Let me know what angle you'd like to approach this from.",
+    "I find that intriguing! There are many ways to approach that topic. What's your main goal or interest here?"
+  ],
+  "thanks": [
+    "You're very welcome! I'm glad I could help. Is there anything else you'd like to explore?",
+    "Happy to help! That's what I'm here for. Feel free to ask me anything else.",
+    "My pleasure! I enjoy our conversations. What else can I assist you with?",
+    "You're welcome! I'm always here when you need assistance or want to discuss interesting topics."
+  ]
+}
